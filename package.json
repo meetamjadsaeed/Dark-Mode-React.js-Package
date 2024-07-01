@@ -29,16 +29,16 @@
     "react component",
     "react library"
   ],
-  "author": "Amjad Saeed <your-email@example.com> (https://github.com/your-username)",
+  "author": "Amjad Saeed <amjadsaeedmail@gmail.com> (https://github.com/meetamjadsaeed/)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/dark-mode-hook"
+    "url": "https://github.com/meetamjadsaeed/Dark-Mode-React.js-Package.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/dark-mode-hook/issues"
+    "url": "https://github.com/meetamjadsaeed/Dark-Mode-React.js-Package/issues"
   },
-  "homepage": "https://github.com/your-username/dark-mode-hook#readme",
+  "homepage": "https://github.com/meetamjadsaeed/Dark-Mode-React.js-Package#readme",
   "dependencies": {
     "@types/react": "^18.3.3",
     "darkreader": "^4.9.39",
