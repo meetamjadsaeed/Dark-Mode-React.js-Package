@@ -1,0 +1,57 @@
+{
+  "name": "dark-mode-hook",
+  "version": "1.0.0",
+  "description": "A reusable dark mode functionality hook and customizable UI for React applications",
+  "main": "src/index.tsx",
+  "types": "src/index.tsx",
+  "files": [
+    "src/**/*"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "dark mode",
+    "react",
+    "hook",
+    "dark mode toggle",
+    "darkreader",
+    "react dark mode",
+    "custom hook",
+    "react hook",
+    "dark mode component",
+    "light mode",
+    "theme",
+    "ui",
+    "user interface",
+    "frontend",
+    "toggle",
+    "react component",
+    "react library"
+  ],
+  "author": "Amjad Saeed <your-email@example.com> (https://github.com/your-username)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/dark-mode-hook"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/dark-mode-hook/issues"
+  },
+  "homepage": "https://github.com/your-username/dark-mode-hook#readme",
+  "dependencies": {
+    "@types/react": "^18.3.3",
+    "darkreader": "^4.9.39",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "@babel/preset-typescript": "^7.24.7",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "typescript": "^5.5.2"
+  }
+}
