@@ -1,5 +1,5 @@
 {
-  "name": "dark-mode-hook",
+  "name": "react-night-mode-hook",
   "version": "1.0.0",
   "description": "A reusable dark mode functionality hook and customizable UI for React applications",
   "main": "src/index.tsx",

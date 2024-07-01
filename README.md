@@ -7,7 +7,7 @@ A reusable dark mode functionality hook and customizable UI for React applicatio
 Install the package via npm:
 
 ```bash
-npm install dark-mode-hook
+npm install react-night-mode-hook
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ In your component:
 
 ```javascript
 import React from "react";
-import { DarkModeToggle } from "dark-mode-hook";
+import { DarkModeToggle } from "react-night-mode-hook";
 
 function App() {
   return (
@@ -38,7 +38,7 @@ In your component:
 
 ```javascript
 import React from "react";
-import { DarkModeToggle } from "dark-mode-hook";
+import { DarkModeToggle } from "react-night-mode-hook";
 
 function App() {
   return (
@@ -58,7 +58,7 @@ Pass your custom UI component as a prop to `DarkModeToggle`:
 
 ```javascript
 import React from "react";
-import { DarkModeToggle } from "dark-mode-hook";
+import { DarkModeToggle } from "react-night-mode-hook";
 
 const CustomDarkModeUI = ({ toggleHandler }) => (
   <div>
