@@ -1,65 +1,87 @@
-/**
- * dark-mode styles 
- * 
- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
-.darkmode>h2 {
-    color: #3b3b3b;
-    font-size: 24px;
-    line-height: 33px;
-    text-align: left;
-    font-family: Source Sans Pro, Georgia, sans-serif;
-    font-weight: 700;
-    display: inline-block;
-    vertical-align: top;
+/* Control Panel */
+:root {
+    --scale: 100px;
+    --time: 1s;
+    --hover-time: 0.2s;
 }
 
-.darkmode-wrapper {
-    width: 50%;
-    margin: auto;
-    padding: 10%;
-}
-
-.dark-checkbox {
-    opacity: 0;
-    position: absolute;
-}
-
-.dark-label {
-    width: 45px;
-    height: 25px;
-    background-color: #111;
+/* Common Styles */
+.common {
     display: flex;
-    border-radius: 50px;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    padding: 5px;
+    transition: all var(--time) ease;
+}
+
+/* Style Rules for the .container class with 2 childrens(title,content) */
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+@media (min-width: 500px) {
+    .container {
+        width: 50%;
+    }
+}
+
+.container .title {
+    text-align: center;
+}
+
+.container .content {
+    text-align: justify;
+}
+
+.container input[type="checkbox"] {
+    display: none;
+}
+
+/* Style rules for the .btn class */
+.btn {
+    align-self: center;
+    margin: 15px 0;
+}
+
+/* Style rules for the .box class */
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: var(--scale);
+    height: calc(var(--scale) / 2);
+    background-color: #000000a3;
     position: relative;
-    transform: scale(1.5);
-    border: 1px solid #a53414;
+    border-radius: calc(var(--scale) / 4);
+    cursor: pointer;
+    transition: all var(--time) ease;
 }
 
-.dark-mode-ball {
-    width: 20px;
-    height: 20px;
-    background-color: white;
+/* Style rules for the roller .ball class */
+.ball {
+    width: calc(var(--scale) / 2);
+    height: calc(var(--scale) / 2);
+    background-color: grey;
     position: absolute;
-    top: 2px;
-    left: 2px;
     border-radius: 50%;
-    transition: transform 0.2s linear;
-    border: 1px solid #a53414;
+    border: 3px solid black;
+    transition: all var(--time) ease;
 }
 
-/*  target the elemenent after the label*/
-.dark-checkbox:checked+.dark-label .dark-mode-ball {
-    transform: translateX(24px);
+/* Style rules for the .scenary(.sun, .moon) class */
+.scenary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 10px 0px 0px;
+    width: 100%;
 }
 
-.darkmode-moon {
-    color: pink;
-}
-
-.darkmode-sun {
-    color: yellow;
+.scenary svg {
+    width: calc(var(--scale) / 3);
 }

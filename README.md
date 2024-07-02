@@ -18,7 +18,8 @@ In your component:
 
 ```javascript
 import React from "react";
-import { DarkModeToggle } from "react-night-mode-hook";
+import { DarkModeToggle, useDarkMode } from "react-night-mode-hook";
+const { isDarkModeActive } = useDarkMode();
 
 function App() {
   return (
@@ -39,6 +40,7 @@ In your component:
 ```javascript
 import React from "react";
 import { DarkModeToggle } from "react-night-mode-hook";
+const { isDarkModeActive } = useDarkMode();
 
 function App() {
   return (
@@ -59,6 +61,7 @@ Pass your custom UI component as a prop to `DarkModeToggle`:
 ```javascript
 import React from "react";
 import { DarkModeToggle } from "react-night-mode-hook";
+const { isDarkModeActive } = useDarkMode();
 
 const CustomDarkModeUI = ({ toggleHandler }) => (
   <div>
@@ -84,7 +87,3 @@ export default App;
 ## License
 
 This project is licensed under the MIT License.
-
-```
-
-```
