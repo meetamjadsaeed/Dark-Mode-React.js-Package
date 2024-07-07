@@ -1,11 +1,12 @@
 {
   "name": "react-night-mode-hook",
-  "version": "1.0.14",
+  "version": "1.0.13",
   "description": "A reusable dark mode functionality hook and customizable UI for React applications",
   "main": "src/index.tsx",
   "types": "src/index.tsx",
   "files": [
-    "src/**/*"
+    "src/**/*",
+    "node_modules/**/*"
   ],
   "scripts": {
     "test": "jest"
