@@ -5,8 +5,7 @@
   "main": "src/index.tsx",
   "types": "src/index.tsx",
   "files": [
-    "src/**/*",
-    "node_modules/**/*"
+    "src/**/*"
   ],
   "scripts": {
     "test": "jest"
@@ -40,11 +39,12 @@
     "url": "https://github.com/meetamjadsaeed/Dark-Mode-React.js-Package/issues"
   },
   "homepage": "https://github.com/meetamjadsaeed/Dark-Mode-React.js-Package#readme",
+  "peerDependencies": {
+    "darkreader": "^4.9.87"
+  },
   "dependencies": {
     "@types/react": "^18.3.3",
     "darkreader": "^4.9.87",
-    "i": "^0.3.7",
-    "npm": "^10.8.1",
     "react": "^17.0.2"
   },
   "devDependencies": {
