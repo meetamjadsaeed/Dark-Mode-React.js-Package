@@ -4,6 +4,10 @@ A reusable dark mode functionality hook and customizable UI for React applicatio
 
 ## Installation
 
+#### Use This Custom Hook directly in your application
+
+You can use the `dark-mode-hook` directly into your React application. Check out the [React Custom Hook repository](https://github.com/meetamjadsaeed/React-Dark-Mode-Boilerplate) for detailed usage instructions and customization options.
+
 Install the package via npm:
 
 ```bash
