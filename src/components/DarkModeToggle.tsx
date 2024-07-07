@@ -1,6 +1,6 @@
 import React from "react";
 import useDarkMode from "../hooks/useDarkMode";
-import "../styles/dark-mode-toggle.css";
+// import "../styles/dark-mode-toggle.css";
 
 interface Props {
   customUI?: React.ComponentType<any>;
