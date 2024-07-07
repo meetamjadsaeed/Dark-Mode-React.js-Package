@@ -1,2 +1,2 @@
-export { default as useDarkMode } from "../src/hooks/useDarkMode";
-export { default as DarkModeToggle } from "../src/components/DarkModeToggle";
+export { default as useDarkMode } from "./hooks/useDarkMode";
+export { default as DarkModeToggle } from "./components/DarkModeToggle";
