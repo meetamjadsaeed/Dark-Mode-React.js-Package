@@ -123,6 +123,8 @@ const DarkModeToggle: React.FC<Props> = ({
 
   const UIComponent = CustomUI || DefaultUI;
 
+  console.log("test");
+
   return (
     <UIComponent
       toggleHandler={toggleDarkMode}
